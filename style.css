@@ -1,0 +1,112 @@
+/* the work of a god AMDG */
+
+/* 
+  color scheme
+
+Barely Green: #acb7ae
+
+The Brown-shirts: #82716e
+
+Tan Blonde: #e4decd
+
+Blondey: #c2b490
+
+
+*/
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*----------nav bar-----------------*/
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:  #e4decd;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:  #867f7e;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #acb7ae;
+  color: white;
+}
+
+
+
+
+
+.logInButtons{
+  background-color: #006400  /* Green */
+  border: 2px;
+  border-color:  #121e26;
+  color: #121e26;
+  padding: 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  border: 1px solid #283635; 
+  border-radius: 4px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid #283635; 
+}
+
+.backgroundHOME {
+    background-image: url('https://cdn.shopify.com/s/files/1/0241/6525/files/IMAGE56_2048x2048.jpg?v=1517940297');
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 5;
+}
+
+
+
+
+
+.flexbox-item{
+  width: 100px;
+  marin: 10px ;
+  border: 1px solid #121e26;
+}
+
+.flexbox-item-1{
+  min-height: 60px; 
+}
+
+.flexbox-item-2{
+  min-height: 60px; 
+}
+
+.flexbox-item-3{
+  min-height: 60px; 
+}
+
+.flexbox-item-4{
+  min-height: 60px; 
+}
